@@ -2,6 +2,7 @@ import './App.css';
 import { Accounts } from './components/accounts/Accounts';
 import { Bankingapp } from './components/bankingApp/Bankingapp';
 import { Sidemenu } from './components/sidemenu/Sidemenu';
+import { Transactions } from './components/transactions/Transactions';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <div className='col-7'>
             <div className='pd-right-sec'>
               <Bankingapp />
+              <Transactions />
             </div>
           </div>
 
