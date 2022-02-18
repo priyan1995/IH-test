@@ -1,5 +1,6 @@
 import './App.css';
 import { Accounts } from './components/accounts/Accounts';
+import { Bankingapp } from './components/bankingApp/Bankingapp';
 import { Sidemenu } from './components/sidemenu/Sidemenu';
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
 
           <div className='col-7'>
             <div className='pd-right-sec'>
-
+              <Bankingapp />
             </div>
           </div>
 

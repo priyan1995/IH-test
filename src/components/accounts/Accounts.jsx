@@ -1,5 +1,5 @@
 import './accounts.css';
-import ServiceImage from '../../assets/img/acc-icon.png'
+import ServiceImage from '../../assets/img/acc-icon.png';
 
 export const Accounts = () => {
     return (

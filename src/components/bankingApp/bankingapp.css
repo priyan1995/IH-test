@@ -1,0 +1,35 @@
+.pd-banking-card {
+    background: #F8F8F8;
+    position: relative;
+    min-height: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pd-banking-card h4 {
+    color: #0061AF;
+    font-size: 19px;
+    line-height: 31px;
+    margin-bottom: 13px;    
+}
+
+.pd-banking-card h4 span {
+    display: block;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.pd-banking-card p{
+    color: #818181;
+    max-width: 70%;
+}
+
+.pd-banking-card img {
+    right: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.pd-banking-card div{
+    padding: 30px;
+    max-width: 69%;
+}
