@@ -1,0 +1,43 @@
+.pd-account-card h4{
+    color: #0061AF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pd-account-card{
+    margin-top: 40px;
+}
+
+.pd-acc-card-box .pd-inner-msg{
+    display: flex;
+    align-items: center;
+}
+
+.pd-acc-card-box .pd-inner-msg p{ 
+    margin-bottom: 0;
+    margin-left: 10px;
+    max-width: 63%;
+}
+
+.pd-try-again{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pd-try-again p{
+    margin-bottom: 0;
+    margin-left: 5px;
+    color: #176EB4;
+    font-weight: 600;
+}
+
+
+
+.pd-acc-card-box{
+    padding: 25px;
+    border: 1px solid #E1E3EF;
+    margin-top: 18px;
+    border-radius: 10px;
+}
