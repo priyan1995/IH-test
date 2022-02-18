@@ -1,0 +1,40 @@
+.pd-main-menu{
+    padding-top: 35px;
+}
+
+.pd-main-menu .active{
+    background: white;
+}
+
+.pd-main-menu a{
+    margin: 18px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+}
+
+.pd-main-menu a:hover{
+    background: white;
+}
+
+.pd-main-menu a:hover path{
+    fill: #0061af;
+}
+
+.pd-main-menu a.disabled:hover {
+    background: transparent;
+    cursor: no-drop;
+}
+
+.pd-main-menu a.disabled:hover path {
+    fill: white;
+}
+
+.pd-main-humberger{
+    text-align: center;
+}
