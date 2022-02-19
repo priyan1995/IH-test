@@ -52,3 +52,34 @@
     margin-bottom: 0;
     color: #000000;
 }
+
+.pd-header-right-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pd-header-right-bar a{
+    text-align: center;
+    padding: 10px;
+    background: white;
+    flex: 0 0 15%;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #000000;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.pd-header-right-bar a:hover{
+    text-decoration: none;
+}
+
+.pd-header-right-bar svg{
+    display: block;
+    margin: auto;
+    margin-bottom: 8px;
+}
