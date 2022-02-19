@@ -148,9 +148,16 @@ label.pd-success{
       flex: 0 0 60%;
       padding: 0 10px;
     }
+    .pd-banking-card h4{
+        line-height: 26px;
+    }
   }
 
   @media (max-width:576px) {
+    .pd-try-again a{
+        font-size: 14px;
+    }
+
     .pd-recent-trans-card{
         display: block;
         text-align: center;
@@ -199,4 +206,11 @@ label.pd-success{
     }
 
 
+  }
+
+
+  @media (max-width:768px) and (min-width:576px){
+    .pd-biller-card p{
+        min-height: 53px;
+    }
   }

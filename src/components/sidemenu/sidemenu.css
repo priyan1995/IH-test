@@ -157,4 +157,17 @@
         padding-right: 15px;
     }
 
+    .pd-main-menu a span{
+        font-size: 12px;
+    }
+
+}
+
+@media (max-height:580px){
+    .pd-main-menu {
+        padding-top: 15px;
+    }
+    .pd-main-menu a{
+        margin: 0;
+    }
 }
