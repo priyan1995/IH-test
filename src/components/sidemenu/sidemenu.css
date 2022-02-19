@@ -139,6 +139,16 @@
     transform: rotate(360deg);
 }
 
+
+@media (max-width:768px) {
+    .pd-sidemenu {
+        padding: 17px 2px;
+    }
+    .pd-expanded{
+        padding-right: 15px;
+    }
+}
+
 @media (max-width:576px) {
     .pd-sidemenu {
         padding: 17px 2px;

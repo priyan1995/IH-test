@@ -194,5 +194,9 @@ label.pd-success{
         max-width: 100%;
     }
 
+    .pd-acc-card-box{
+        padding: 15px;
+    }
+
 
   }

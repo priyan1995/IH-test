@@ -152,14 +152,24 @@
 
 }
 
-.pd-main-humberger{
+.pd-main-humberger {
     cursor: pointer;
 }
 
 @media (max-width:576px) {
 
-.pd-header-right-bar a{
-    flex: 0 0 47%;
-}
+    .pd-header-right-bar a {
+        flex: 0 0 46%;
+        margin: 5px;
+    }
+
+    .pd-header-right-bar {
+        justify-content: center;
+    }
+
+    .pd-main-header{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 
 }
