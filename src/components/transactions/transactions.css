@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #E1E3EF;
-    padding: 10px 0;
+    padding: 8px 0;
 }
 
 .pd-scd-payment-card p {
@@ -13,6 +13,7 @@
 h5 {
     margin-bottom: 20px;
     font-weight: 600;
+    color: #231F20;
 }
 
 .pd-scd-payment-card .pd-date {
