@@ -1,0 +1,43 @@
+.pd-scd-payment-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E1E3EF;
+    padding: 10px 0;
+}
+
+.pd-scd-payment-card p {
+    margin-bottom: 0;
+}
+
+h5 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.pd-scd-payment-card .pd-date {
+    max-width: 150px;
+    flex: 0 0 20%;
+    color: #7F83A7;
+}
+
+.pd-scd-payment-card .pd-name {
+    flex: 0 0 50%;
+    color: #231F20;
+    font-weight: 600;
+}
+
+.pd-scd-payment-card .pd-price {
+    color: #2180CC;
+    font-weight: 800;
+}
+
+.pd-scd-payment-card .pd-price span {
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+.pd-scd-payment-card:last-child{
+    border-bottom: none;
+}
