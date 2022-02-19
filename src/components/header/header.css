@@ -64,6 +64,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .pd-header-right-bar a {
@@ -153,4 +154,12 @@
 
 .pd-main-humberger{
     cursor: pointer;
+}
+
+@media (max-width:576px) {
+
+.pd-header-right-bar a{
+    flex: 0 0 47%;
+}
+
 }

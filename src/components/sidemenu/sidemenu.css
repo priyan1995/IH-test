@@ -1,8 +1,8 @@
-.pd-main-menu{
+.pd-main-menu {
     padding-top: 35px;
 }
 
-.pd-sidemenu{
+.pd-sidemenu {
     height: 100vh;
     width: auto;
     padding: 17px;
@@ -13,7 +13,7 @@
     top: 0;
 }
 
-.pd-bg-overlay-dark{ 
+.pd-bg-overlay-dark {
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -27,12 +27,12 @@
 }
 
 
-.pd-main-menu .active svg{
+.pd-main-menu .active svg {
     background: white;
     transition: 0.5s;
 }
 
-.pd-main-menu a svg{
+.pd-main-menu a svg {
     border-radius: 5px;
     padding: 7px;
     height: 30px;
@@ -46,7 +46,7 @@
 }
 
 .pd-main-menu a {
-    margin: 10px 0;   
+    margin: 10px 0;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -60,12 +60,12 @@
 
 
 
-.pd-main-menu a:hover svg{
+.pd-main-menu a:hover svg {
     background: white;
     transition: 0.5s;
 }
 
-.pd-main-menu a:hover path{
+.pd-main-menu a:hover path {
     fill: #0061af;
     transition: 0.5s;
 }
@@ -75,7 +75,7 @@
     transition: 0.5s;
 }
 
-.pd-main-menu a.disabled:hover svg{
+.pd-main-menu a.disabled:hover svg {
     background: transparent;
     cursor: no-drop;
     transition: 0.5s;
@@ -85,53 +85,66 @@
     fill: white;
 }
 
-.pd-main-humberger{
+.pd-main-humberger {
     padding-left: 10px;
 }
-.pd-main-menu a span{
+
+.pd-main-menu a span {
     margin-right: 20px;
 }
-.pd-main-menu a.disabled span{
+
+.pd-main-menu a.disabled span {
     filter: opacity(0.5);
 }
 
-.pd-hide{
+.pd-hide {
     display: none;
     transition: 0.5s;
 }
 
-.pd-visible{
+.pd-visible {
     display: block;
     transition: 0.5s;
 }
 
-.pd-collapsed svg:nth-child(2){
+.pd-collapsed svg:nth-child(2) {
     opacity: 0;
 }
 
-.pd-expanded  svg:nth-child(2){
+.pd-expanded svg:nth-child(2) {
     opacity: 1;
 }
 
-.pd-collapsed svg:nth-child(1){
+.pd-collapsed svg:nth-child(1) {
     opacity: 1;
 }
-.pd-expanded  svg:nth-child(1){
+
+.pd-expanded svg:nth-child(1) {
     opacity: 0;
 }
 
-.pd-expanded{
+.pd-expanded {
     text-align: right;
     transition: 0.5s;
 }
 
-.pd-collapsed{
+.pd-collapsed {
     text-align: left;
     transition: 0.5s;
     padding-left: 2px;
 }
 
-.pd-expanded  svg:nth-child(2):hover{
+.pd-expanded svg:nth-child(2):hover {
     transition: 0.5s;
     transform: rotate(360deg);
+}
+
+@media (max-width:576px) {
+    .pd-sidemenu {
+        padding: 17px 2px;
+    }
+    .pd-expanded{
+        padding-right: 15px;
+    }
+
 }

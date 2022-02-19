@@ -1,54 +1,75 @@
-*{
-    font-family: 'Archivo', sans-serif;
+* {
+  font-family: 'Archivo', sans-serif;
 }
 
-.pd-sidemenu-sec{
-    height: 100vh;
-    width: auto;
-    position: relative;
-    padding: 17px;
-    background: #0061AF;
-    position: fixed;
-    z-index: 999;
+.pd-sidemenu-sec {
+  height: 100vh;
+  width: auto;
+  position: relative;
+  padding: 17px;
+  background: #0061AF;
+  position: fixed;
+  z-index: 999;
 }
 
-p{
-    color: #4F4F4F;
-    font-size: 14px;
+p {
+  color: #4F4F4F;
+  font-size: 14px;
 }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 7px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #0061af;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #0061afbf;
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0061af;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0061afbf;
+}
+
+.pd-mt-40 {
+  margin-top: 40px;
+}
+
+.pd-left-section-padding {
+  padding-right: 40px;
+}
+
+.pd-right-section-padding {
+  padding-left: 40px;
+}
+
+.container {
+  padding-left: 65px;
+}
+
+
+@media (max-width:992px) {
+  .pd-left-section-padding {
+    padding-right: 15px;
   }
 
-  .pd-mt-40{
-      margin-top: 40px;
+  .pd-right-section-padding {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width:768px) {}
+
+@media (max-width:576px) {
+  .container {
+    padding-left: 70px;
   }
 
-  .pd-left-section-padding{
-    padding-right: 40px;
-  }
 
-  .pd-right-section-padding{
-    padding-left: 40px;
-  }
-
-  .container{
-    padding-left: 65px;
-  }
+}

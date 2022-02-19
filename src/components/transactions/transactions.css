@@ -142,3 +142,57 @@ label.pd-success{
 .pd-recent-transactions{
     margin-bottom: 40px;
 }
+
+@media (max-width:768px) {
+    .pd-r-t-cont {
+      flex: 0 0 60%;
+      padding: 0 10px;
+    }
+  }
+
+  @media (max-width:576px) {
+    .pd-recent-trans-card{
+        display: block;
+        text-align: center;
+    }
+    .pd-r-t-price.text-right{
+        text-align: center !important;
+        margin-top: 10px;
+    }
+    .pd-r-t-cont{
+        margin-top: 10px;
+    }
+
+    h5{
+        text-align: center;
+    }
+    
+    .pd-scd-payment-card .pd-name {
+        flex: 0 0 38%;
+    }
+
+    .pd-biller-cards-sec{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pd-biller-card {
+        flex: 0 0 47%;
+        padding: 10px;
+    }
+
+    .pd-scd-payment-card{
+        padding: 15px 0;
+    }
+
+
+    .pd-scd-payment-card{
+        display: block;
+        text-align: center;
+    }
+    .pd-scd-payment-card .pd-date {
+        max-width: 100%;
+    }
+
+
+  }

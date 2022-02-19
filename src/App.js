@@ -22,13 +22,13 @@ function App() {
       <div className='container'>
         <div className='row'>
 
-          <div className='col-5 pd-left-section-padding'>
+          <div className='col-lg-5 pd-left-section-padding'>
             <div className='pd-accounts-sec'>
               <Accounts />
             </div>
           </div>
 
-          <div className='col-7 pd-right-section-padding'>
+          <div className='col-lg-7 pd-right-section-padding'>
             <div className='pd-right-sec'>
               <Bankingapp />
               <Transactions />

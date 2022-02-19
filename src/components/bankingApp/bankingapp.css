@@ -23,9 +23,10 @@
     transform-origin: right;
     opacity: 0;
 } */
-.pd-banking-card:hover{
+.pd-banking-card:hover {
     transition: 0.5s;
 }
+
 /* 
 .pd-banking-card:hover::after{
     transition: 0.5s;
@@ -37,7 +38,7 @@
     color: #0061AF;
     font-size: 19px;
     line-height: 31px;
-    margin-bottom: 13px;    
+    margin-bottom: 13px;
 }
 
 .pd-banking-card h4 span {
@@ -45,7 +46,8 @@
     text-transform: capitalize;
     font-size: 22px;
 }
-.pd-banking-card p{
+
+.pd-banking-card p {
     color: #818181;
     max-width: 70%;
 }
@@ -56,9 +58,33 @@
     bottom: 0;
 }
 
-.pd-banking-card div{
+.pd-banking-card div {
     padding: 30px;
     max-width: 75%;
     z-index: 1;
     position: relative;
+}
+
+
+@media (max-width:576px) {
+    .pd-banking-card div {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .pd-banking-card img {
+        filter: opacity(0.4);
+    }
+
+    .pd-banking-card p {
+        max-width: 80%;
+    }
+
+    .pd-banking-card h4 {
+        font-size: 14px;
+    }
+
+    .pd-banking-card h4 span {
+        font-size: 20px;
+    }
 }
