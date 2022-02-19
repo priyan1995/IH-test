@@ -39,3 +39,15 @@ p{
   .pd-mt-40{
       margin-top: 40px;
   }
+
+  .pd-left-section-padding{
+    padding-right: 40px;
+  }
+
+  .pd-right-section-padding{
+    padding-left: 40px;
+  }
+
+  .container{
+    padding-left: 65px;
+  }

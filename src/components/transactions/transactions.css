@@ -4,6 +4,15 @@
     justify-content: space-between;
     border-bottom: 1px solid #E1E3EF;
     padding: 8px 0;
+    transition: 0.5s;
+}
+
+.pd-scd-payment-card:hover {
+    transition: 0.5s;
+    transform: translateY(-2px);
+    background-color: #f7f7f7;
+    border-color: transparent;
+    padding: 8px 5px;
 }
 
 .pd-scd-payment-card p {
@@ -50,6 +59,11 @@ h5 {
 
 .pd-biller-card{
     flex: 0 0 15%;
+    transition: 0.5s;
+}
+
+.pd-biller-card:hover{
+    transition: 0.5s;
 }
 
 .pd-biller-card img{
@@ -57,6 +71,12 @@ h5 {
     border: 1px solid #D1D4E8;
     border-radius: 12px;
     margin-bottom: 8px;
+    transition: 0.5s;
+}
+
+.pd-biller-card:hover img{
+    transition: 0.5s;
+    transform: translateY(-2px);
 }
 
 .pd-biller-card p{
@@ -75,6 +95,15 @@ h5 {
     justify-content: space-between;
     border-bottom: 1px solid #E1E3EF;
     padding: 14px 0 18px;
+    transition: 0.5s;
+}
+
+.pd-recent-trans-card:hover{
+    transition: 0.5s;
+    transform: translateY(-2px);
+    /* background-color: #f7f7f7; */
+    border-color: #7F83A7;
+    /* padding: 14px 5px 18px; */
 }
 
 .pd-r-t-cont{

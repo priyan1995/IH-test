@@ -26,12 +26,14 @@
     align-items: center;
 }
 
-.pd-try-again p{
+.pd-try-again a{
     margin-bottom: 0;
     margin-left: 5px;
     color: #176EB4;
     font-weight: 600;
+    text-decoration: none !important;
 }
+
 
 
 
@@ -40,4 +42,11 @@
     border: 1px solid #E1E3EF;
     margin-top: 18px;
     border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+.pd-acc-card-box:hover{
+    transition: 0.5s;
+    background: #f7f7f79e;
 }
