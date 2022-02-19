@@ -10,8 +10,6 @@ export const Sidemenu = () => {
     const sildemenu = () => {
         setsidemenuIsExpand(!sidemenuIsExpand);
         sethumbergerIsCollapsed(!humbergerIsCollapsed);
-        console.log(humbergerIsCollapsed)
-
     }
 
     return (
