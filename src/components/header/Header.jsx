@@ -5,7 +5,17 @@ export const Header = () => {
     return (
         <>
             <img src={HeaderImage} className='main-header-image' />
+
             <div className='container pd-main-header'>
+                <div className='pd-notification-icon'>
+                    <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.6">
+                            <path d="M15.939 6.79002C15.939 5.19555 15.3056 3.66639 14.1781 2.53893C13.0507 1.41148 11.5215 0.778076 9.92703 0.778076C8.33257 0.778076 6.80341 1.41148 5.67595 2.53893C4.54849 3.66639 3.91509 5.19555 3.91509 6.79002C3.91509 13.804 0.909119 15.8079 0.909119 15.8079H18.9449C18.9449 15.8079 15.939 13.804 15.939 6.79002Z" stroke="#2180CC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M11.6618 19.8158C11.4857 20.1195 11.2328 20.3716 10.9286 20.5468C10.6244 20.722 10.2795 20.8142 9.92839 20.8142C9.57731 20.8142 9.2324 20.722 8.92818 20.5468C8.62396 20.3716 8.37111 20.1195 8.19495 19.8158" stroke="#2180CC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                    </svg>
+
+                </div>
                 <div className='row'>
                     <div className='col-lg-4'>
                         <div className='pd-header'>
@@ -29,7 +39,7 @@ export const Header = () => {
                     <div className='col-lg-8'>
                         <div className='pd-header-right-bar'>
 
-                            <a className='pd-nv-box'>
+                            <a className='pd-nv-box active'>
                                 <div>
                                     <svg width="32" height="26" viewBox="0 0 32 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M29.1512 5.19873H1.55665V7.4063H29.1512V5.19873Z" fill="#0061AF" />
