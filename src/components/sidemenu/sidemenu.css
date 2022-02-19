@@ -2,33 +2,58 @@
     padding-top: 35px;
 }
 
-.pd-main-menu .active{
+.pd-main-menu .active svg{
     background: white;
+    transition: 0.5;
 }
 
-.pd-main-menu a{
-    margin: 18px 0;
+.pd-main-menu a svg{
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
+    padding: 7px;
     height: 30px;
     width: 30px;
-    padding: 7px;
+    height: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    transition: 0.5;
+    margin-right: 10px;
 }
 
-.pd-main-menu a:hover{
+.pd-main-menu a {
+    margin: 10px 0;   
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    transition: 0.5s;
+    padding: 7px;
+    text-decoration: none !important;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+.pd-main-menu a:hover svg{
     background: white;
+    transition: 0.5;
 }
 
 .pd-main-menu a:hover path{
     fill: #0061af;
+    transition: 0.5;
 }
 
 .pd-main-menu a.disabled:hover {
+    cursor: no-drop;
+    transition: 0.5;
+}
+
+.pd-main-menu a.disabled:hover svg{
     background: transparent;
     cursor: no-drop;
+    transition: 0.5;
 }
 
 .pd-main-menu a.disabled:hover path {
@@ -36,5 +61,19 @@
 }
 
 .pd-main-humberger{
-    text-align: center;
+    padding-left: 10px;
+}
+.pd-main-menu a span{
+    margin-right: 20px;
+}
+.pd-main-menu a.disabled span{
+    filter: opacity(0.5);
+}
+
+.pd-hide{
+    display: none;
+}
+
+.pd-visible{
+    display: block;
 }
