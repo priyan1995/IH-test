@@ -32,7 +32,7 @@ export const Header = () => {
                                         <span>Thilina!</span> </h3>
                                 </div>
                             </div>
-                            <p>You are powerful, brave and brilliant</p>
+                            <p className='pd-prof-qt'>You are powerful, brave and brilliant</p>
                         </div>
                     </div>
 
