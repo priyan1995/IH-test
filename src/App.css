@@ -35,3 +35,7 @@ p{
   ::-webkit-scrollbar-thumb:hover {
     background: #0061afbf;
   }
+
+  .pd-mt-40{
+      margin-top: 40px;
+  }

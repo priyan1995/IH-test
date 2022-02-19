@@ -41,3 +41,26 @@ h5 {
 .pd-scd-payment-card:last-child{
     border-bottom: none;
 }
+.pd-biller-cards-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.pd-biller-card{
+    flex: 0 0 15%;
+}
+
+.pd-biller-card img{
+    padding: 10px;
+    border: 1px solid #D1D4E8;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.pd-biller-card p{
+    color: #000000;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0 4px;
+}
