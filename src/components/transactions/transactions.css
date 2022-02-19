@@ -64,3 +64,11 @@ h5 {
     line-height: 16px;
     padding: 0 4px;
 }
+
+.pd-recent-trans-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E1E3EF;
+    padding: 10px 0;
+}
