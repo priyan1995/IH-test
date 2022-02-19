@@ -49,4 +49,5 @@
 .pd-acc-card-box:hover{
     transition: 0.5s;
     background: #f7f7f79e;
+    border-color: #e1e1e163;
 }
